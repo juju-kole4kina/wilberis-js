@@ -423,6 +423,15 @@ button {
     height: 40px;
 }
 
+.cart-buy:not(.delete-all) {
+    margin-right: 10px;
+}
+
+.delete-all {
+    background-color: red;
+    border-color: red;
+}
+
 .mw-160 {
     max-width: 160px;
 }
